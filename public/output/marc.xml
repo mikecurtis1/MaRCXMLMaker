@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<collection>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9780199693795</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Bentley, Peter</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Digitized : the science of computers and how it shapes our world</subfield>
+			<subfield code="c">Bentley, Peter</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2012</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">In this book the author tells the story of computer science, explaining how and why computers were invented, how they work, looking at real-world examples of computers in use, and considering what will happen in the future. There's a hidden science that affects every part of your life. You are fluent in its terminology of email, WiFi, social networking, and encryption. You use its results when you make a telephone call, access the Internet, use any factory-produced product, or travel in any modern car. The discipline is so new that some prefer to call it a branch of engineering or mathematics. But it is so powerful and world-changing that you would be hard-pressed to find a single human being on the planet unaffected by its achievements. The science of computers enables the supply and creation of power, food, water, medicine, transport, money, communication, entertainment, and most goods in shops. It has transformed societies with the Internet, the digitization of information, mobile phone networks and GPS (Global Positioning System) technologies. Here, the author explores how this young discipline grew from its theoretical conception by pioneers such as Turing, through its growth spurts in the Internet, its difficult adolescent stage where the promises of Artificial Intelligence (AI) were never achieved and dot-com bubble burst, to its current stage as a (semi)mature field, now capable of remarkable achievements. Charting the successes and failures of computer science through the years, he discusses what innovations may change our world in the future.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Astronomy</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9780470399095</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Di Justo, Patrick</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">The science of Battlestar Galactica</subfield>
+			<subfield code="c">Di Justo, Patrick</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2011</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">Battlestar Galactica (BSG) has been called the best show on television, and as real as science fiction gets. It has dealt with issues of religious freedom, patriotism, terrorism, genetic engineering, and the ultimate science fiction question: what does it mean to be human? While the re-imagined BSG may not be packed with cool techie tools (the bad guys don't even have laser guns for frak's sake!), this book shows that the science in the series has a lot to say about the use of science and technology in our lives today--</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Astronomy</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9781847445018</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Miller, Ben</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">It's not rocket science</subfield>
+			<subfield code="c">Miller, Ben</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2012</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">Black holes. Global warming. The Hadron Collider. Ever had that sinking feeling that you really should know about these things, but somehow never quite grasped them? Don't worry - you're not alone. Before Ben Miller was a comedian, he used to be a physicist, working towards a PhD in Novel Quantum Effects in Quasi-Zero-Dimensional Electron Systems. But then he woke up twenty years later and realised he didn't know any of this stuff either. And so he set out on a mission. He worked out the ten most vital things in science - the things you really need to know. He talked to experts, he visited research labs, he went to see the Hadron Collider in action... And then he wrote this book.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Astronomy</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9781617031533</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Magee, Carol L</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Africa in the American imagination popular culture, racialized identities, and African visual culture</subfield>
+			<subfield code="c">Magee, Carol L</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2012</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">In the American world, the presence of African culture is sometimes fully embodied and sometimes leaves only a trace. Africa in the American Imagination: Popular Culture, Racialized Identities, and African Visual Culture explores this presence, examining Mattel's world of Barbie, the 1996 Sports Illustrated swimsuit issue, and Disney World, each of which repackages African visual culture for consumers. Because these cultural icons permeate American life, they represent the broader U.S. culture and its relationship to African culture. This study integrates approaches from art history and visual</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9781611450514</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Fisher, Len</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">The science of everyday life : an entertaining and enlightening examination of everything we do and everything we see</subfield>
+			<subfield code="c">Fisher, Len</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2011</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">Presents a scientific look at everyday activities, including the art and science of dunking, how to boil an egg, how to tally a supermarket bill, the science behind hand tools, catching a ball or throwing a boomerang, and the physics of sex.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Science</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9789814295642</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Prasol, A. F</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Modern Japan origins of the mind : Japanese traditions and approaches to contemporary life</subfield>
+			<subfield code="c">Prasol, A. F</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2010</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">The book takes a fresh look at modern Japan, and does not treat the Japanese as enigmatic or mysterious people; their ways of thinking and their culture can be explained by an honest appraisal of their history and of the norms that have shaped this history. This book not only reveals the mentality and national character of modern Japanese people but also attempts to explore and analyze the roots of their mannerisms. Everyone knows that the Japanese are generally more polite than other nationalities, but why is this so? Why do they embrace a relaxed attitude when being served by others? Surely, there must be specific reasons to account for these observations. Delving into the social values of the Japanese, why do they value loyalty and commitment so much? How long have they been upholding these virtues? Why, when interrogated by the police, even without being beaten or tortured, do they easily confess guilt for crimes that they have not committed? What are the reasons for such behaviors? All these questions and more are answered in this book.</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9781461430308</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Seedhouse, Erik</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Pulling G human responses to high and low gravity</subfield>
+			<subfield code="c">Seedhouse, Erik</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2013</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">Formula 1 racing drivers, figher pilots, astronauts - G forces are an integral part of their lives- How do racing drivers sustain high G loads and not pass out?- What accelerative forces are unleashed when a fighter pilot ejects from a high-performance jet?- What is it like being launched into space and what are the effects on astronauts living in zero G on board the International Space Station?- How do aircraft simulate zero G?Pulling G gives a unique insight into how G forces affect people working inthe high and low G environments. It examines the risks of high and low acceleration and explains the physiology of surviving in these environments. The history of G-related research is described, together with present-day and future development of methods to cope with the effects of increased and reduced G.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Astronomy</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9780313364570</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Hannon, Sharon M</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Punks a guide to an American subculture</subfield>
+			<subfield code="c">Hannon, Sharon M</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2010</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">In the 1950s it was the beats. In the 1960s it was the hippies. In the 1970s it was the punks, the next utterly unique, music-fueled subculture to reject the world set out before them - with a vengeance - and in so doing, change that world in unforgettable, unpredictable ways. Unlike other volumes on the punk era that focus on just the music - and primarily on British punk bands - Punks: A Guide to an American Subculture spans the full expanse of punk as it happened in the United States, from the late-1960s blast of Iggy Pop and the Stooges to the full explosion of punk in the mid 1970s to its next-generation resurgences and continuing aftershocks. Readers will see how punk spread virally, through fan-created magazines, record labels, clubs, and radio stations, as well as how mainstream America reacted, then absorbed aspects of punk culture. The book includes interviews with key members of the punk subculture, including new conversations with people who participated in the punk scene in the 1970s and 1980s.--BOOK JACKET.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Punk rock music</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9781843313427</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Dāśa, Anirbāṇa</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Toward a politics of the (im)possible the body in third world feminisms</subfield>
+			<subfield code="c">Dāśa, Anirbāṇa</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2010</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">This book presents a philosophical discussion on the issues of the body and knowledge from a feminist perspective.</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9780230019805</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Brake, Mark</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Different engines : how science drives fiction and fiction drives science</subfield>
+			<subfield code="c">Brake, Mark</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2008</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">The symbiosis of science and science fiction shapes what we see, do and dream. &quot;Since its emergence in the 17th century, science fiction (SF) has been a sustained, coherent and subversive check on the promises and pitfalls of science. In their turn, invention and discovery have forced fiction writers to confront the nature and limits of reality. Different Engines is the first trade book to explore how this fascinating symbiosis shapes what we see, do and dream.&quot; &quot;From Johannes Kepler's Somnium to Arthur C. Clarke's 2001, science fiction has emerged as a mode of thinking complementary to the scientific method, argue Professor Mark-Brake and Reverend Neil Hook SF's field of interest is the gap between the new worlds uncovered by experimentation and exploration and the fantastic worlds of the imagination. Its proponents find drama in the tension between the familiar and the unfamiliar. Its readers, many of them scientists and politicians, find inspiration in the contrast between the ordinary and the extraordinary. Brake and Hook's Different Engines is a unique, provocative and compelling account of science fiction as the arbiter of progress.&quot;--BOOK JACKET.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Science</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9780520939646</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Frühstück, Sabine</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Uneasy warriors gender, memory, and popular culture in the Japanese Army</subfield>
+			<subfield code="c">Frühstück, Sabine</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2007</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">The author draws on interviews, historical research, and analysis to describe the unusual case of a non-war making military. As the first scholar permitted to participate in basic SDF training, she offers a firsthand look at an army trained for combat that nevertheless serves nontraditional military needs.</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9781441656933</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Nenzi, Laura Nenz Detto</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Excursions in identity travel and the intersection of place, gender, and status in Edo Japan</subfield>
+			<subfield code="c">Nenzi, Laura Nenz Detto</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2008</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">In the Edo period (1600-1868), status- and gender-based expectations largely defined a person's place and identity in society. The wayfarers of the time, however, discovered that travel provided the opportunity to escape from the confines of the everyday. Cultured travelers of the seventeenth and eighteenth centuries wrote travel memoirs to celebrate their profession as belle-lettrists. For women in particular the open road and the blank page of the diary offered a precious opportunity to create personal hierarchies defined less by gender and more by culture and refinement. After the mid-eighteenth century - which saw the popularization of culture and the rise of commercial printing - textbooks, guides, comical fiction, and woodblock prints allowed not a few commoners to acquaint themselves with the historical, lyrical, or artistic pedigree of Japan's famous sites. By identifying themselves with famous literary and historical icons of the past, some among these erudite commoners saw an opportunity to rewrite their lives and re-create their identities in the pages of their travel diaries.--Jacket.</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9780307592835</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Egan, Jennifer</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">A visit from the Goon Squad</subfield>
+			<subfield code="c">Egan, Jennifer</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2010</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">Bennie Salazar, an aging former punk rocker and record executive, and Sasha, the passionate, troubled young woman he employs confront their pasts in this powerful story about how rebellion ages, influence corrupts, habits turn to addictions, lifelong friendships fluctuate and turn, and how art and music have the power to redeem.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Rock music</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9780226723808</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Rogers, Alan R</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">The evidence for evolution</subfield>
+			<subfield code="c">Rogers, Alan R</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2011</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">According to polling data, most Americans doubt that evolution is a real phenomenon. And it's no wonder that so many are skeptical: many of today's biology courses and textbooks dwell on the mechanisms of evolution--natural selection, genetic drift, and gene flow--but say little about the evidence that evolution happens at all. How do we know that species change? Has there really been enough time for evolution to operate? With The Evidence for Evolution, Alan R. Rogers provides an elegant, straightforward text that details the evidence for evolution. Rogers covers different levels of evolution, from within-species changes, which are much less challenging to see and believe, to much larger ones, say, from fish to amphibian, or from land mammal to whale. For each case, he supplies numerous lines of evidence to illustrate the changes, including fossils, DNA, and radioactive isotopes. His comprehensive treatment stresses recent advances in knowledge but also recounts the give and take between skeptical scientists who first asked how can we be sure&quot; and then marshaled scientific evidence to attain certainty&quot;--P. [4] of cover.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Evolution</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9781441916839</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Vázquez, M</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">The Earth as a distant planet a Rosetta Stone for the search of Earth-like worlds</subfield>
+			<subfield code="c">Vázquez, M</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2010</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">In The Earth as a Distant Planet, the authors become external observers of our solar system from a distance and try to determine how one can understand how Earth, the third in distance to the central star, is essentially unique and capable of sustaining life. The knowledge gained from this original perspective is then applied to the search for other planets outside the solar system, or exoplanets.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Astronomy</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9780199718368</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Gjerdingen, Robert O</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Music in the galant style</subfield>
+			<subfield code="c">Gjerdingen, Robert O</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2007</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">Music in the Galant Style by Robert O. Gjerdingen is a groundbreaking book that explains 18th-century composition through the lens of Italian partimento (keyboard exercises) and recurring voice-leading patterns called &quot;schemata&quot;. It argues that the galant style, a precursor to Classical music, was built on a shared vocabulary of these stock patterns, allowing for rapid, fashionable production. The book is praised for reframing 18th-century music analysis, moving beyond later Roman numeral or Schenkerian methods to reveal how composers actually learned and worked.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Music</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9781569767436</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Sisk, Eileen</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Buck Owens the biography</subfield>
+			<subfield code="c">Sisk, Eileen</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2010</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">Retracing the life of Buck Owens - from his poverty--stricken youth as the son of a sharecropper to one of the nation's best-loved and wealthiest entertainers--this biography pays tribute to the man and his music by revealing his genius, his warmth, his humor, his vulnerabilities, and his flaws. It is based on personal sources, including original and latter-day Buckaroos, the cohost and the producer of Hee Haw, the former president of Capitol Nashville, and numerous country singers, relatives, ex-wives, ex-lovers, and ex-employees. The result is a 360-degree profile of a shrewd businessman--the polar opposite of the aw-shucks image he cultivated on Hee Haw. Owens was the top-selling country act of the 1960s--with 21 number-one hits and 35 consecutive top-10 hits from 1962 to 1972, a total surpassed only by the Beatles. One of his major contributions to this era was his invention of the Bakersfield sound, mixing electric guitars with a rock 'n' roll beat, which became popular with country and rock fans alike. This biography details the rift Buck had with the Nashville establishment, his reasons for never becoming a member of the Grand Ole Opry, the number of times Buck married, the truth about Buck posing in the nude for Playgirl, and his strained but professional relationship with Hee Haw cohost Roy Clark.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Rock music</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9780198027058</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Todd, R. Larry</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Mendelssohn a life in music</subfield>
+			<subfield code="c">Todd, R. Larry</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2003</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">An extraordinary prodigy of Mozartean abilities, Felix Mendelssohn Bartholdy was a distinguished composer and conductor, a legendary pianist and organist, and an accomplished painter and classicist. Lionized in his lifetime, he is best remembered today for several staples of the concert hall and for such popular music as &quot;The Wedding March&quot; and &quot;Hark, the Herald Angels Sing.&quot;; Now, in the first major Mendelssohn biography to appear in decades, R. Larry Todd offers a remarkably fresh account of this musical giant, based upon painstaking research in autograph manuscripts, correspondence, diaries, and paintings. Rejecting the view of the composer as a craftsman of felicitous but sentimental, saccharine works (termed by one critic &quot;moonlight with sugar water&quot;), Todd reexamines the composer's entire oeuvre, including many unpublished and little known works. Here are; engaging analyses of Mendelssohn's distinctive masterpieces--the zestful Octet, puckish Midsummer Night's Dream, haunting Hebrides Overtures, and elegiac Violin Concerto in E minor. Todd describes how the composer excelled in understatement and nuance, in subtle, coloristic orchestrations that lent; his scores an undeniable freshness and vividness. He also explores Mendelssohn's changing awareness of his religious heritage, Wagner's virulent anti-Semitic attack on Mendelssohn's music, the composer's complex relationship with his sister Fanny Hensel, herself a child prodigy and prolific composer, his avocation as a painter and draughtsman, and his remarkable, polylingual correspondence with the cultural elite of his time.; Mendelssohn: A Life offers a masterful blend of biography and musical analysis. Readers will discover many new facets of the familiar but misunderstood composer and gain new perspectives on one of the most formidable musical geniuses of all time.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Music</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">393038939</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Swafford, Jan</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Charles Ives : a life with music</subfield>
+			<subfield code="c">Swafford, Jan</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">1996</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">This penetrating study illuminates the life and works of the enigmatic composer/insurance executive Charles Ives, whose experimental works profoundly influenced the course of American classical music in the twentieth century. In his rich and colorful biography, Jan Swafford, himself an established composer, looks at this towering, paradoxical figure and finds the consistencies lying beneath the protean surface. Using what he calls an &quot;Ivesian&quot; approach, Swafford sees the music and the life as forming a single story; one that is firmly rooted in Ives's Yankee background. Thus the book unfolds with a brief history of Ives's Connecticut hometown of Danbury, then describes Civil War band music, and finally draws a fascinating portrait of George Ives, Charles's remarkable father and musical mentor. We follow Ives to Yale and then to his early years in New York, as he becomes at once a composer of conventional church anthems, an unprecedented innovator in musical technique, and a rising insurance executive. After skillfully evoking the sights and sounds that influenced the composer and his music, Swafford weaves together Ives the businessman and Ives the musical explorer, always keeping the discussion of the works at a nontechnical level.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Music</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">252025822</subfield>
+		</datafield>
+		<datafield tag="041" ind1="" ind2="">
+			<subfield code="a">eng</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Glinsky, Albert</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Theremin : ether music and espionage</subfield>
+			<subfield code="c">Glinsky, Albert</subfield>
+		</datafield>
+		<datafield tag="260" ind1="" ind2="">
+			<subfield code="c">2000</subfield>
+		</datafield>
+		<datafield tag="520" ind1="" ind2="">
+			<subfield code="a">A creative genius and prolific inventor, Leon Theremin almost single-handedly launched the field of electronic music in 1920. The theremin--the only musical instrument that is played without being touched--created a sensation worldwide and paved the way for the modern synthesizer. But the otherworldly sound that entranced millions was only part of Theremin's epic life. As a Soviet scientist, Theremin surrendered his life and work to the service of State espionage. On assignment in Depression-era America, he worked the engines of capitalist commerce while passing data on US industrial technology to the Soviet apparat. Following his sudden disappearance in 1938, Theremin vanished into the top-secret Soviet intelligence machine and was presumed dead for nearly thirty years. Using the same technology that spawned the theremin, he designed bugging devices and a host of other electronic wonders, including an early television and multimedia devices that anticipated performance art and virtual reality by decades. Albert Glinsky's biography places the inventor at world events stretching from the Russian Revolution through the Cold War to perestroika. Throughout, he spins whimsy and treachery into an astonishing drama of one man's hidden loyalties, mixed motivations, and irrepressibly creative spirit.</subfield>
+		</datafield>
+		<datafield tag="650" ind1="1" ind2="0">
+			<subfield code="a">Music</subfield>
+		</datafield>
+	</record>
+</collection>

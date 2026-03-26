@@ -12,12 +12,20 @@ class MaRCXMLMaker
 	
 	public function buildLeader($type='book')
 	{
-		//NOTE: http://www.loc.gov/marc/bibliographic/bdleader.html, 
-        	//NOTE: http://www.loc.gov/marc/ldr06guide.html, 
 		if ( $type === 'book' ) {
 			$this->rec .= "\t\t<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>\n";
 		} elseif ( $type === 'dvd' ) {
 			$this->rec .= "\t\t<leader>^^^^^^gm^^^^^^^^^^^^^^^^</leader>\n";
+		} elseif ( $type === 'musical_recording' ) {
+			$this->rec .= "\t\t<leader>^^^^^^jm^^^^^^^^^^^^^^^^</leader>\n";
+		} elseif ( $type === 'music_score' ) {
+			$this->rec .= "\t\t<leader>^^^^^^cm^^^^^^^^^^^^^^^^</leader>\n";
+		} elseif ( $type === 'magazine_issue' ) {
+			$this->rec .= "\t\t<leader>^^^^^^as^^^^^^^^^^^^^^^^</leader>\n";
+		} elseif ( $type === 'physical_image' ) {
+			$this->rec .= "\t\t<leader>^^^^^^km^^^^^^^^^^^^^^^^</leader>\n";
+		} elseif ( $type === 'physical_artifact' ) {
+			$this->rec .= "\t\t<leader>^^^^^^rm^^^^^^^^^^^^^^^^</leader>\n";
 		} elseif ( $type === 'website' ) {
 			$this->rec .= "\t\t<leader>^^^^^^mi^^^^^^^^^^^^^^^^</leader>\n";
 		}  else {
@@ -78,15 +86,5 @@ class MaRCXMLMaker
 	private function _html($str='')
 	{
 		return htmlspecialchars($str, ENT_COMPAT, 'ISO-8859-1', false);
-	}
-	
-	public function makeFile($filename, $content, $mode='w')
-	{
-		if(!is_file($filename)){
-			//NOTE: mode a = append, w = write
-        		$ourFileHandle = fopen($filename, $mode);
-			fwrite($ourFileHandle, $content);
-			fclose($ourFileHandle);
-		}
-	}
+	}	
 }
