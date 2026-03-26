@@ -3,11 +3,13 @@
 require_once dirname(__FILE__) . '/../src/MaRCXMLMaker.php';
 $mm = new MaRCXMLMaker();
 
+$file = "books.tsv";
+
 $delimiter = "\t";
 
 $data = array();
 
-if (($handle = fopen("books.tsv", "r")) !== FALSE) {
+if (($handle = fopen($file, "r")) !== FALSE) {
     $headers = fgetcsv($handle, null, $delimiter);
     while ( $row = fgetcsv($handle, null, $delimiter) ) {
         $data[] = array_combine($headers, $row);
