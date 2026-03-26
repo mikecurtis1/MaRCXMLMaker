@@ -18,6 +18,8 @@ After the initial migration, the MARCXML generation logic was extracted into thi
 
 This repository represents that reusable serialization layer.
 
+### MaRC Notes
+
 <pre>
 MaRC documentation here: http://www.loc.gov/marc/bibliographic/, or use the crib sheet below
 
