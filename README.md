@@ -27,7 +27,7 @@ This project is designed for clarity and ease of use, making it suitable for sma
 Clone the repository or copy the class file into your project:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/mikecurtis1/MaRCXMLMaker.git
 ```
 
 Then include the class:
