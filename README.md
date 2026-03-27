@@ -61,6 +61,9 @@ A record is built using the `buildLeader()`, `buildControlfield()`, `buildSubfie
 #### Build a MaRC leader tag 
 
 * The leader is a fixed width 24 character string which encodes details about the record item.
+* `buildLeader()` builds or updates the MARC leader field.
+* If $pos is null, initializes the leader from the provided string, truncated to 24 characters.
+* If $pos is an integer, replaces a segment of the existing leader starting at the given position.
 
 ```php
 $mm->buildLeader(null, '^^^^^nam#a^^^^^^^z^^4500');

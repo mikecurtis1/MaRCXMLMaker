@@ -23,6 +23,8 @@ class MaRCXMLMaker
 			$this->leader = substr_replace($this->leader, strval($str), $pos, strlen($str));
 		}
 
+		$this->leader = str_pad(substr($this->leader, 0, 24), 24, '^', STR_PAD_RIGHT);
+
 		return;
 	}
 	
