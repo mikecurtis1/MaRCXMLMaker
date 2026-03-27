@@ -61,22 +61,9 @@ A record is built using the `buildLeader()`, `buildControlfield()`, `buildSubfie
 #### Build a MaRC leader tag 
 
 * The leader is a fixed width 24 character string which encodes details about the record item.
-* The `buildLeader()` function accepts plain English keywords to set character positions 6 and 7 indicating media and granularity of the record item.
-* Keywords allowed:
-  * book
-  * book_chapter
-  * magazine_issue
-  * magazine_article
-  * ebook
-  * digital_video (DVD, mp4, etc.)
-  * musical_recording (CD, mp3, 33 1/3 vinyl, etc.)
-  * music_score (notated music)
-  * website
-  * physical_image (photographs, postcards, drawings, etc.)
-  * physical_artifact (fossil, clothing item, taxidermy mount, etc.)
 
 ```php
-$mm->buildLeader('book');
+$mm->buildLeader(null, '^^^^^nam#a^^^^^^^z^^4500');
 ```
 
 #### Build a control field
@@ -92,27 +79,24 @@ $mm->buildControlfield('001', '10001234');
 Build temp subfield data
 
 ```php
-$subfields = '';
-$subfields .= $mm->buildSubfield('a', '9780547750330');
+$mm->buildSubfield('a', '9780547750330');
 ```
 Build the datafield with the subfield data
 
 ```php
-$mm->buildDatafield('020', '', '', $subfields);
+$mm->buildDatafield('020', '', '');
 ```
 
 #### Build additional datafields
 
 ```php
-$subfields = '';
-$subfields .= $mm->buildSubfield('a', 'Schlosser, Eric');
-$mm->buildDatafield('100', '', '', $subfields);
+$mm->buildSubfield('a', 'Schlosser, Eric');
+$mm->buildDatafield('100', '', '');
 ```
 
 ```php
-$subfields = '';
-$subfields .= $mm->buildSubfield('a', 'Fast Food Nation');
-$mm->buildDatafield('245', '', '', $subfields);
+$mm->buildSubfield('a', 'Fast Food Nation');
+$mm->buildDatafield('245', '', '');
 ```
 
 #### Add the record to the records set
@@ -126,15 +110,14 @@ $mm->addRec();
 #### Add a second record
 
 ```php
-$mm->buildLeader('book');
+$mm->buildLeader(6, 'a');
+$mm->buildLeader(7, 'm');
 $mm->buildControlfield('001', '10001235');
-$subfields = '';
-$subfields .= $mm->buildSubfield('a', 'Kerouac, Jack');
-$mm->buildDatafield('100', '', '', $subfields);
-$subfields = '';
-$subfields .= $mm->buildSubfield('a', 'On the Road');
-$subfields .= $mm->buildSubfield('h', 'by Jack Kerouac');
-$mm->buildDatafield('245', '', '', $subfields);
+$mm->buildSubfield('a', 'Kerouac, Jack');
+$mm->buildDatafield('100', '', '');
+$mm->buildSubfield('a', 'On the Road');
+$mm->buildSubfield('h', 'by Jack Kerouac');
+$mm->buildDatafield('245', '', '');
 $mm->addRec();
 ```
 ### Step 3. Output the MaRC-XML metadata
@@ -158,7 +141,7 @@ Example
 <?xml version="1.0" encoding="UTF-8" ?>
 <collection>
 	<record>
-		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<leader>^^^^^^am^^^^^^^^^^^^4500</leader>
 		<controlfield tag="001">10001234</controlfield>
 		<datafield tag="020" ind1="" ind2="">
 			<subfield code="a">9780547750330</subfield>
@@ -171,7 +154,7 @@ Example
 		</datafield>
 	</record>
 	<record>
-		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<leader>^^^^^nam#a^^^^^^^z^^4500</leader>
 		<controlfield tag="001">10001235</controlfield>
 		<datafield tag="100" ind1="" ind2="">
 			<subfield code="a">Kerouac, Jack</subfield>
