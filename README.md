@@ -171,7 +171,7 @@ A quick reference mapping common metadata terms (e.g., author, title, ISBN)
 to their corresponding MARC tags, indicators, subfields, and leader values 
 is available here:
 
-👉 [MARC Field Mapping Cheat Sheet](MARC_CHEATSHEET.md)
+* [MARC Field Mapping Cheat Sheet](MARC_CHEATSHEET.md)
 
 This is intended as a practical guide for building records with MaRCXMLMaker.
 
