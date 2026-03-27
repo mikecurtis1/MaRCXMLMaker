@@ -20,6 +20,8 @@ This repository represents that reusable serialization layer.
 
 ## Basic MaRC-XML record structure
 
+The structure of MARC records is an implementation of national and international standards, e.g., Information Interchange Format (ANSI Z39.2) and Format for Information Exchange (ISO 2709).
+
 A MaRC-XML `record` is composed of a single `leader` element along with one or more `controlfield` and `datafield` elements. Both field types have a three digit numeric `tag` attribute. Datafield elements additionally have two indicator attributes - `ind1` and `ind2` - and contain one or more `subfield` child elements which have single character `code` attributes.
 
 Example
