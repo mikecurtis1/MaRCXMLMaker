@@ -19,10 +19,15 @@ A practical reference for mapping common metadata labels to MARC21 fields, indic
 
 ---
 
-## Physical Description (300 Field)
+## Physical Description
+
+| Label      | MARC Tag | Indicators | Subfields | Notes  |
+|------------|----------|------------|-----------|--------|
+| Extent     | 300      | __         | $a        | 408 p. |
+| Dimensions | 300      | __         | $c        | 21 cm. |
 
 | Use Case     | Example |
-|--------------|--------|
+|--------------|---------|
 | Page count   | `300 ## $a408 p., [20] p. of plates : $bill. ; $c21 cm.` |
 | Art/media    | `300 ## $a12 art reproductions : $bcol. ; $c17 x 23 cm.` |
 | Audio disc   | `300 ## $a1 sound disc : $banalog, 33 1/3 rpm ; $c12 in.` |
@@ -32,7 +37,7 @@ A practical reference for mapping common metadata labels to MARC21 fields, indic
 
 ## Series
 
-| Label                         | MARC Tag | Subfield |
+| Label                        | MARC Tag | Subfield |
 |------------------------------|----------|----------|
 | Series title                 | 490      | $a       |
 | Series volume / designation  | 490      | $v       |
@@ -51,7 +56,7 @@ A practical reference for mapping common metadata labels to MARC21 fields, indic
 
 ## Subjects & Genres
 
-| Label                                 | MARC Tag | Indicators | Subfield |
+| Label                                | MARC Tag | Indicators | Subfield |
 |--------------------------------------|----------|------------|----------|
 | Topic term (uncontrolled)            | 650      | _4         | $a       |
 | Genre term (uncontrolled)            | 655      | _4         | $a       |
@@ -146,7 +151,7 @@ Reference: http://www.loc.gov/marc/languages/language_name.html
 
 | Field        | Value |
 |--------------|-------|
-| Leader       | `^^^^^^am^^^^^^^^^^^^^^^^` |
+| Leader       | `^^^^^^am^^^^^^^^^^^^4500` |
 | 245 $h       | `[electronic resource]` |
 | 300 $a       | `1 online resource` |
 | 655 _4 $a    | `Electronic books` |
