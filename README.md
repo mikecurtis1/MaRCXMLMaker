@@ -20,7 +20,7 @@ This repository represents that reusable serialization layer.
 
 ## Basic MaRC-XML record structure
 
-A MaRC-XML record is composed of a single `leader` element along with one or more `controlfield` and `Datafield` elements. Both field types have a three digit numeric `tag` attribute. Datafield elements additionally have two `indicator` attributes and contain `subfield` child elements which have single character `code` attributes.
+A MaRC-XML `record` is composed of a single `leader` element along with one or more `controlfield` and `Datafield` elements. Both field types have a three digit numeric `tag` attribute. Datafield elements additionally have two indicator attributes - `ind1` and `ind2` - and contain `subfield` child elements which have single character `code` attributes.
 
 Example
 
