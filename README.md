@@ -76,12 +76,14 @@ $mm->buildControlfield('001', '10001234');
 
 #### Build a datafield 
 
-Build temp subfield data
+First build subfield data.
 
 ```php
 $mm->buildSubfield('a', '9780547750330');
 ```
-Build the datafield with the subfield data
+Build the datafield which automatically inserts subfield elements prepared in the previous subfield build steps inside the new datafield.
+
+After the datafield is built the subfield data is reset for a new subfield/datafield build.
 
 ```php
 $mm->buildDatafield('020', '', '');
@@ -101,7 +103,7 @@ $mm->buildDatafield('245', '', '');
 
 #### Add the record to the records set
 
-The `addRec()` method adds records to the private `$recs` property and empties `$rec` in preparation for a new record build.
+The `addRec()` method adds records to the private `$recs` property, empties `$rec`, and resets temp `$leader` and `$substring` properties in preparation for a new record build.
 
 ```php
 $mm->addRec();
