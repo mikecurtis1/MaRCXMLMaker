@@ -39,7 +39,7 @@ A record is built using the `buildLeader()`, `buildControlfield()`, `buildSubfie
 
 #### build a MaRC leader tag 
 
-* The leader is a fixed width 24 character string which encodes medium and granularity details about the record item.
+* The leader is a fixed width 24 character string which encodes details about the record item.
 * The `buildLeader()` function accepts plain English keywords to set character positions 6 and 7 indicating media and granularity of the record item.
 * Keywords allowed:
   * book
