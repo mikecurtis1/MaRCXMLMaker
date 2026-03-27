@@ -18,6 +18,10 @@ After the initial migration, the MARCXML generation logic was extracted into thi
 
 This repository represents that reusable serialization layer.
 
+## Basic MaRC-XML record structure
+
+A MaRC-XML record is composed of a single `leader` element along with one or more `controlfield` and `Datafield` elements. Both field types have a three digit numeric `tag` attribute. Datafield elements additionally have two `indicator` attributes and contain `subfield` child elements which have single character `code` attributes.
+
 ## Usage
 
 This example demonstrates how to use the `MarcXMLMaker` class to build a simple MARCXML record collection.
@@ -60,6 +64,8 @@ $mm->buildLeader('book');
 
 #### build a control field
 
+Control field tag `001` designates a `control number` an internal system ID number. Note, the `001` tag type is not used for ISBN data which is designated by tag `020` as demonstrated below. 
+
 ```php
 $mm->buildControlfield('001', '10001234');
 ```
@@ -70,15 +76,21 @@ Build temp subfield data
 
 ```php
 $subfields = '';
-$subfields .= $mm->buildSubfield('a', 'Schlosser, Eric');
+$subfields .= $mm->buildSubfield('a', '9780547750330');
 ```
-Build the Datafield with the subfield data
+Build the datafield with the subfield data
 
 ```php
-$mm->buildDatafield('100', '', '', $subfields);
+$mm->buildDatafield('020', '', '', $subfields);
 ```
 
-#### build another datafield
+#### build additional datafields
+
+```php
+$subfields = '';
+$subfields .= $mm->buildSubfield('a', 'Schlosser, Eric');
+$mm->buildDatafield('100', '', '', $subfields);
+```
 
 ```php
 $subfields = '';
