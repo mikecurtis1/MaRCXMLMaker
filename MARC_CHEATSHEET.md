@@ -23,8 +23,8 @@ A practical reference for mapping common metadata labels to MARC21 fields, indic
 
 | Label      | MARC Tag | Indicators | Subfields | Notes  |
 |------------|----------|------------|-----------|--------|
-| Extent     | 300      | __         | $a        | 408 p. |
-| Dimensions | 300      | __         | $c        | 21 cm. |
+| Extent     | 300      | __         | $a        | Book page count, items in a set, etc. |
+| Dimensions | 300      | __         | $c        | Book spine height, dis diameter, etc. |
 
 | Use Case     | Example |
 |--------------|---------|
@@ -37,20 +37,20 @@ A practical reference for mapping common metadata labels to MARC21 fields, indic
 
 ## Series
 
-| Label                        | MARC Tag | Subfield |
-|------------------------------|----------|----------|
-| Series title                 | 490      | $a       |
-| Series volume / designation  | 490      | $v       |
+| Label                        | MARC Tag | Indicators | Subfield |
+|------------------------------|----------|------------|----------|
+| Series title                 | 490      | __         | $a       |
+| Series volume / designation  | 490      | __         | $v       |
 
 ---
 
 ## Notes & Description
 
-| Label            | MARC Tag | Subfield |
-|------------------|----------|----------|
-| General note     | 500      | $a       |
-| Description      | 520      | $a       |
-| Target audience  | 521      | $a       |
+| Label            | MARC Tag | Indicators | Subfield |
+|------------------|----------|------------|----------|
+| General note     | 500      | __         | $a       |
+| Description      | 520      | __         | $a       |
+| Target audience  | 521      | __         | $a       |
 
 ---
 
