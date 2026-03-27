@@ -18,58 +18,51 @@ if (($handle = fopen($file, "r")) !== FALSE) {
 
 foreach ($data as $i => $row) {
     
-    $mm->buildLeader('book');
+    $mm->buildLeader(6, 'a');
+    $mm->buildLeader(7, 'm');
     $mm->buildControlfield('001', '10001235');
 
     if (!empty($row['isbn'])){
-        $subfields = '';
-        $subfields .= $mm->buildSubfield('a', $row['isbn']);
-        $mm->buildDatafield('020', '', '', $subfields);
+        $mm->buildSubfield('a', $row['isbn']);
+        $mm->buildDatafield('020', '', '');
     }
 
     if (!empty($row['language'])){
-        $subfields = '';
-        $subfields .= $mm->buildSubfield('a', $row['language']);
-        $mm->buildDatafield('041', '', '', $subfields);
+        $mm->buildSubfield('a', $row['language']);
+        $mm->buildDatafield('041', '', '');
     }
 
     if (!empty($row['author'])){
-        $subfields = '';
-        $subfields .= $mm->buildSubfield('a', $row['author']);
-        $mm->buildDatafield('100', '', '', $subfields);
+        $mm->buildSubfield('a', $row['author']);
+        $mm->buildDatafield('100', '', '');
     }
 
     if (!empty($row['title'])){
-        $subfields = '';
-        $subfields .= $mm->buildSubfield('a', $row['title']);
+        $mm->buildSubfield('a', $row['title']);
         if (!empty($row['author'])){
-            $subfields .= $mm->buildSubfield('c', $row['author']);
+            $mm->buildSubfield('c', $row['author']);
         }
-        $mm->buildDatafield('245', '', '', $subfields);
+        $mm->buildDatafield('245', '', '');
     }
 
     if (!empty($row['pubdate'])){
-        $subfields = '';
-        $subfields .= $mm->buildSubfield('c', $row['pubdate']);
-        $mm->buildDatafield('260', '', '', $subfields);
+        $mm->buildSubfield('c', $row['pubdate']);
+        $mm->buildDatafield('260', '', '');
     }
 
     if (!empty($row['pages'])){
-        $subfields = '';
-        $subfields .= $mm->buildSubfield('a', $row['pages'] . ' p.');
-        $mm->buildDatafield('300', '#', '#', $subfields);
+        $mm->buildSubfield('a', $row['pages'] . ' p.');
+        $mm->buildDatafield('300', '#', '#');
     }
 
     if (!empty($row['description'])){
-        $subfields = '';
-        $subfields .= $mm->buildSubfield('a', $row['description']);
-        $mm->buildDatafield('520', '', '', $subfields);
+        $mm->buildSubfield('a', $row['description']);
+        $mm->buildDatafield('520', '', '');
     }
 
     if (!empty($row['topic'])){
-        $subfields = '';
-        $subfields .= $mm->buildSubfield('a', $row['topic']);
-        $mm->buildDatafield('650', '1', '0', $subfields);
+        $mm->buildSubfield('a', $row['topic']);
+        $mm->buildDatafield('650', '1', '0');
     }
 
     $mm->addRec();
