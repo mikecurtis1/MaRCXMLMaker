@@ -28,7 +28,7 @@ Example
 
 ```XML
 <record>
-	<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+	<leader>^^^^^^am^^^^^^^^^^^^4500</leader>
 	<controlfield tag="001">00000001</controlfield>
 	<datafield tag="245" ind1="" ind2="">
 		<subfield code="a">On the Road</subfield>
