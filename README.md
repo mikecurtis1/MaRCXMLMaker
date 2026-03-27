@@ -152,6 +152,37 @@ header('Content-Type: text/xml; charset=utf-8');
 echo $collection;
 ```
 
+Example
+
+```XML
+<collection>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001234</controlfield>
+		<datafield tag="020" ind1="" ind2="">
+			<subfield code="a">9780547750330</subfield>
+		</datafield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Schlosser, Eric</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">Fast Food Nation</subfield>
+		</datafield>
+	</record>
+	<record>
+		<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+		<controlfield tag="001">10001235</controlfield>
+		<datafield tag="100" ind1="" ind2="">
+			<subfield code="a">Kerouac, Jack</subfield>
+		</datafield>
+		<datafield tag="245" ind1="" ind2="">
+			<subfield code="a">On the Road</subfield>
+			<subfield code="h">by Jack Kerouac</subfield>
+		</datafield>
+	</record>
+</collection>
+```
+
 ### MaRC Notes
 
 <pre>
