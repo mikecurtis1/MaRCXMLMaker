@@ -22,6 +22,19 @@ This repository represents that reusable serialization layer.
 
 A MaRC-XML record is composed of a single `leader` element along with one or more `controlfield` and `Datafield` elements. Both field types have a three digit numeric `tag` attribute. Datafield elements additionally have two `indicator` attributes and contain `subfield` child elements which have single character `code` attributes.
 
+Example
+
+```XML
+<record>
+	<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>
+	<controlfield tag="001">00000001</controlfield>
+	<datafield tag="245" ind1="" ind2="">
+		<subfield code="a">On the Road</subfield>
+		<subfield code="h">by Jack Kerouac</subfield>
+	</datafield>
+</record>
+```
+
 ## Usage
 
 This example demonstrates how to use the `MarcXMLMaker` class to build a simple MARCXML record collection.
