@@ -165,6 +165,18 @@ Returns all stored records wrapped in a `<collection>` element.
 
 ---
 
+## MARC Field Mapping Cheat Sheet
+
+A quick reference mapping common metadata terms (e.g., author, title, ISBN) 
+to their corresponding MARC tags, indicators, subfields, and leader values 
+is available here:
+
+👉 [MARC Field Mapping Cheat Sheet](MARC_CHEATSHEET.md)
+
+This is intended as a practical guide for building records with MaRCXMLMaker.
+
+---
+
 ## Design Notes
 
 - The class is **stateful**: it accumulates fields until `addRec()` is called
