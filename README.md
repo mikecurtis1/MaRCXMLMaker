@@ -54,7 +54,7 @@ require_once dirname(__FILE__) . '/../src/MaRCXMLMaker.php';
 $mm = new MarcXMLMaker();
 ```
 
-### Step 2: Add records
+### Step 2: Build records
 
 A record is built using the `buildLeader()`, `buildControlfield()`, `buildSubfield()`, and  `buildDatafield()` methods which add metadata to the private `$rec` property.
 
