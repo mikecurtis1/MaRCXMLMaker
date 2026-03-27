@@ -35,6 +35,8 @@ Example
 </record>
 ```
 
+Complete documentation of tag, indicator, and subfield codes is available at the Library of Congress [MARC 21 Format for Bibliographic Data](https://www.loc.gov/marc/bibliographic/) page.
+
 ## Usage
 
 This example demonstrates how to use the `MarcXMLMaker` class to build a simple MARCXML record collection.
