@@ -4,34 +4,25 @@ class MaRCXMLMaker
 {
 	private $recs;
 	private $rec;
+	private $leader;
+	private $subfields;
 	
 	public function __construct()
 	{
 		$this->recs = array();
+		$this->rec = '';
+		$this->leader = '^^^^^^^^^^^^^^^^^^^^4500';
+		$this->subfields = '';
 	}
 	
-	public function buildLeader($type='book')
+	public function buildLeader($pos=null, $str='')
 	{
-		if ( $type === 'book' ) {
-			$this->rec .= "\t\t<leader>^^^^^^am^^^^^^^^^^^^^^^^</leader>\n";
-		} elseif ( $type === 'dvd' ) {
-			$this->rec .= "\t\t<leader>^^^^^^gm^^^^^^^^^^^^^^^^</leader>\n";
-		} elseif ( $type === 'musical_recording' ) {
-			$this->rec .= "\t\t<leader>^^^^^^jm^^^^^^^^^^^^^^^^</leader>\n";
-		} elseif ( $type === 'music_score' ) {
-			$this->rec .= "\t\t<leader>^^^^^^cm^^^^^^^^^^^^^^^^</leader>\n";
-		} elseif ( $type === 'magazine_issue' ) {
-			$this->rec .= "\t\t<leader>^^^^^^as^^^^^^^^^^^^^^^^</leader>\n";
-		} elseif ( $type === 'physical_image' ) {
-			$this->rec .= "\t\t<leader>^^^^^^km^^^^^^^^^^^^^^^^</leader>\n";
-		} elseif ( $type === 'physical_artifact' ) {
-			$this->rec .= "\t\t<leader>^^^^^^rm^^^^^^^^^^^^^^^^</leader>\n";
-		} elseif ( $type === 'website' ) {
-			$this->rec .= "\t\t<leader>^^^^^^mi^^^^^^^^^^^^^^^^</leader>\n";
-		}  else {
-			$this->rec .= "\t\t<leader>^^^^^^^^^^^^^^^^^^^^^^^^</leader>\n";
+		if ( is_null($pos)) {
+			$this->leader = substr(strval($str), 0, 24);
+		} elseif (is_int($pos)) {
+			$this->leader = substr_replace($this->leader, strval($str), $pos, strlen($str));
 		}
-		
+
 		return;
 	}
 	
@@ -48,27 +39,34 @@ class MaRCXMLMaker
 		$subfield = "\t\t\t" . '<subfield code="' . $this->_html($code) . '">' 
         	. $this->_html($str) . '</subfield>' . "\n";
 		
-        return $subfield;
+		$this->subfields .= $subfield;
+
+        return;
 	}
 	
-	public function buildDatafield($tag='500', $ind1='', $ind2='', $subfields='')
+	public function buildDatafield($tag='500', $ind1='', $ind2='')
 	{
-		if ( $subfields !== '' ) {
+		if ( $this->subfields !== '' ) {
 			$this->rec .= "\t\t" . '<datafield tag="' . $this->_html($tag) 
         		. '" ind1="' . $this->_html($ind1) 
         		. '" ind2="' . $this->_html($ind2) . '">' . "\n"
-			. $subfields . "\t\t" . '</datafield>' . "\n";
+			. $this->subfields . "\t\t" . '</datafield>' . "\n";
 		} else {
 			$this->rec .= '';
 		}
+
+		$this->subfields = '';
 		
 		return;
 	}
 	
 	public function addRec($rec='')
 	{
+		$this->rec = "\t\t<leader>" . $this->leader . "</leader>\n" . $this->rec;
 		$this->recs[] = $this->getRec();
 		$this->rec = '';
+		$this->leader = '^^^^^^^^^^^^^^^^^^^^4500';
+		$this->subfields = '';
 		
 		return;
 	}
