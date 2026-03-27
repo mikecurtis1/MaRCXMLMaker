@@ -58,7 +58,7 @@ $mm = new MarcXMLMaker();
 
 A record is built using the `buildLeader()`, `buildControlfield()`, `buildSubfield()`, and  `buildDatafield()` methods which add metadata to the private `$rec` property.
 
-#### build a MaRC leader tag 
+#### Build a MaRC leader tag 
 
 * The leader is a fixed width 24 character string which encodes details about the record item.
 * The `buildLeader()` function accepts plain English keywords to set character positions 6 and 7 indicating media and granularity of the record item.
@@ -79,7 +79,7 @@ A record is built using the `buildLeader()`, `buildControlfield()`, `buildSubfie
 $mm->buildLeader('book');
 ```
 
-#### build a control field
+#### Build a control field
 
 Control field tag `001` designates a `control number` an internal system ID number. Note, the `001` tag type is not used for ISBN data which is designated by tag `020` as demonstrated below. 
 
@@ -87,7 +87,7 @@ Control field tag `001` designates a `control number` an internal system ID numb
 $mm->buildControlfield('001', '10001234');
 ```
 
-#### build a datafield 
+#### Build a datafield 
 
 Build temp subfield data
 
@@ -101,7 +101,7 @@ Build the datafield with the subfield data
 $mm->buildDatafield('020', '', '', $subfields);
 ```
 
-#### build additional datafields
+#### Build additional datafields
 
 ```php
 $subfields = '';
@@ -115,7 +115,7 @@ $subfields .= $mm->buildSubfield('a', 'Fast Food Nation');
 $mm->buildDatafield('245', '', '', $subfields);
 ```
 
-#### add the record to the set
+#### Add the record to the records set
 
 The `addRec()` method adds records to the private `$recs` property and empties `$rec` in preparation for a new record build.
 
