@@ -1,4 +1,4 @@
-## MaRCXMLMaker
+# MaRCXMLMaker
 
 This class was originally developed as part of a one-off data transformation pipeline.
 
@@ -18,11 +18,120 @@ After the initial migration, the MARCXML generation logic was extracted into thi
 
 This repository represents that reusable serialization layer.
 
+## Usage
+
+This example demonstrates how to use the `MarcXMLMaker` class to build a simple MARCXML record collection.
+
+---
+
+### Step 1: Include the class and create an instance
+
+Include the `MarcXMLMaker` class and create a new instance:
+
+```php
+require_once dirname(__FILE__) . '/../src/MaRCXMLMaker.php';
+$mm = new MarcXMLMaker();
+```
+
+### Step 2: Add records
+
+A record is built using the `buildLeader()`, `buildControlfield()`, `buildSubfield()`, and  `buildDatafield()` methods which add metadata to the private `$rec` property.
+
+#### build a MaRC leader tag 
+
+* The leader is a fixed width 24 character string which encodes details about the record item.
+* The `buildLeader()` function accepts plain English keywords to set character positions 6 and 7 indicating media and granularity of the record item.
+* Keywords allowed:
+  * book
+  * book_chapter
+  * magazine_issue
+  * magazine_article
+  * ebook
+  * digital_video (DVD, mp4, etc.)
+  * musical_recording (CD, mp3, 33 1/3 vinyl, etc.)
+  * music_score (notated music)
+  * website
+  * physical_image (photographs, postcards, drawings, etc.)
+  * physical_artifact (fossil, clothing item, taxidermy mount, etc.)
+
+```php
+$mm->buildLeader('book');
+```
+
+#### build a control field
+
+```php
+$mm->buildControlfield('001', '10001234');
+```
+
+#### build a datafield 
+
+Build temp subfield data
+
+```php
+$subfields = '';
+$subfields .= $mm->buildSubfield('a', 'Schlosser, Eric');
+```
+Build the Datafield with the subfield data
+
+```php
+$mm->buildDatafield('100', '', '', $subfields);
+```
+
+#### build another datafield
+
+```php
+$subfields = '';
+$subfields .= $mm->buildSubfield('a', 'Fast Food Nation');
+$mm->buildDatafield('245', '', '', $subfields);
+```
+
+#### add the record to the set
+
+The `addRec()` method adds records to the private `$recs` property and empties `$rec` in preparation for a new record build.
+
+```php
+$mm->addRec();
+```
+
+#### Add a second record
+
+```php
+$mm->buildLeader('book');
+$mm->buildControlfield('001', '10001235');
+$subfields = '';
+$subfields .= $mm->buildSubfield('a', 'Kerouac, Jack');
+$mm->buildDatafield('100', '', '', $subfields);
+$subfields = '';
+$subfields .= $mm->buildSubfield('a', 'On the Road');
+$subfields .= $mm->buildSubfield('h', 'by Jack Kerouac');
+$mm->buildDatafield('245', '', '', $subfields);
+$mm->addRec();
+```
+### Step 3. Output the MaRC-XML metadata
+
+#### Create an XML string
+
+```php
+$collection =  '<?xml version="1.0" encoding="UTF-8" ?>' . "\n" . $mm->getCollection();
+```
+
+#### Output XML to a web browser 
+
+```php
+header('Content-Type: text/xml; charset=utf-8');
+echo $collection;
+```
+
 ### MaRC Notes
 
 <pre>
 MaRC documentation here: http://www.loc.gov/marc/bibliographic/, or use the crib sheet below
 
+https://www.loc.gov/marc/bibliographic/bdapndxc.html
+
+https://www.loc.gov/marc/ldr06guide.html
+	
 Two guides to the leader field
 http://www.loc.gov/marc/bibliographic/bdleader.html
 http://www.loc.gov/marc/ldr06guide.html
