@@ -82,7 +82,7 @@ echo $collection;
 Run the app from a browser
 
 ```
-http://localhost:8083/index.php
+http://localhost:8080/index.php
 ```
 
 XML response
