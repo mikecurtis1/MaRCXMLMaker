@@ -30,10 +30,11 @@ Clone the repository or copy the class file into your project:
 git clone https://github.com/mikecurtis1/MARCXMLMaker.git
 ```
 
-Start Docker container
+Build Docker image and start container
 
 ```bash
-docker run -d -p 8080:80 -v $(pwd):/var/www/html marcxml-app
+docker build -t marcxmlmaker .
+docker run -d -p 8080:80 -v $(pwd):/var/www/html marcxmlmaker
 ```
 
 ---
