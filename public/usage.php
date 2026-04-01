@@ -1,10 +1,10 @@
 <?php 
 
 // create instance
-require_once dirname(__FILE__) . '/../src/MaRCXMLMaker.php';
+require_once dirname(__FILE__) . '/../src/MARCXMLMaker.php';
 $mm = new MarcXMLMaker();
 
-// start with creating a MaRC leader tag
+// start with creating a MARC leader tag
 $mm->buildLeader(6, 'a');
 $mm->buildLeader(7, 'm');
 // build a controlfield

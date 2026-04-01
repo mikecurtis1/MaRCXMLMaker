@@ -1,6 +1,6 @@
-# MaRCXMLMaker
+# MARCXMLMaker
 
-MaRCXMLMaker is a lightweight PHP utility for building MARCXML records programmatically.
+MARCXMLMaker is a lightweight PHP utility for building MARCXML records programmatically.
 
 It provides a simple, stateful interface for constructing MARC records piece by piece—handling leaders, controlfields, datafields, and subfields—without requiring a full MARC framework.
 
@@ -27,13 +27,13 @@ This project is designed for clarity and ease of use, making it suitable for sma
 Clone the repository or copy the class file into your project:
 
 ```bash
-git clone https://github.com/mikecurtis1/MaRCXMLMaker.git
+git clone https://github.com/mikecurtis1/MARCXMLMaker.git
 ```
 
-Then include the class:
+Start Docker container
 
-```php
-require_once 'src/MaRCXMLMaker.php';
+```bash
+docker run -d -p 8083:80 -v $(pwd):/var/www/html marcxml-app
 ```
 
 ---
@@ -43,9 +43,9 @@ require_once 'src/MaRCXMLMaker.php';
 ```php
 <?php 
 
-require_once 'src/MaRCXMLMaker.php';
+require_once 'src/MARCXMLMaker.php';
 
-$mm = new MaRCXMLMaker();
+$mm = new MARCXMLMaker();
 
 // Build leader
 $mm->buildLeader(6, 'a');
@@ -173,7 +173,7 @@ is available here:
 
 * [MARC Field Mapping Cheat Sheet](MARC_CHEATSHEET.md)
 
-This is intended as a practical guide for building records with MaRCXMLMaker.
+This is intended as a practical guide for building records with MARCXMLMaker.
 
 ---
 

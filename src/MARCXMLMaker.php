@@ -1,6 +1,6 @@
 <?php 
 
-class MaRCXMLMaker 
+class MARCXMLMaker 
 {
 	private $recs;
 	private $rec;

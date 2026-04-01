@@ -1,7 +1,7 @@
 <?php 
 
-require_once dirname(__FILE__) . '/../src/MaRCXMLMaker.php';
-$mm = new MaRCXMLMaker();
+require_once dirname(__FILE__) . '/../src/MARCXMLMaker.php';
+$mm = new MARCXMLMaker();
 
 $file = "books.tsv";
 
