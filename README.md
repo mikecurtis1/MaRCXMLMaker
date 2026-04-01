@@ -33,7 +33,7 @@ git clone https://github.com/mikecurtis1/MARCXMLMaker.git
 Start Docker container
 
 ```bash
-docker run -d -p 8083:80 -v $(pwd):/var/www/html marcxml-app
+docker run -d -p 8080:80 -v $(pwd):/var/www/html marcxml-app
 ```
 
 ---
