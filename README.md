@@ -79,6 +79,14 @@ echo $collection;
 
 ## Example Output
 
+Run the app from a browser
+
+```
+http://localhost:8083/index.php
+```
+
+XML response
+
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <collection>
