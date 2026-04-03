@@ -100,7 +100,7 @@ XML response
 ```
 ---
 
-## Simple application
+## Simple web application
 
 Place metadata into a csv/tsv file. (Demo tsv file including in the repo.)
 
@@ -108,7 +108,7 @@ Place metadata into a csv/tsv file. (Demo tsv file including in the repo.)
 http://localhost:8080/books.tsv
 ```
 
-Upload a csv/tsv file to convert into MARC XML.
+Upload the csv/tsv file to convert into MARC XML.
 
 ```
 http://localhost:8080/form.html
