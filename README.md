@@ -172,7 +172,7 @@ Finalizes the current record:
 
 ### `getRec()`
 
-Returns the current record as XML (without storing it).
+Returns the current record field data wrapped in a `<record>` element.
 
 ---
 
