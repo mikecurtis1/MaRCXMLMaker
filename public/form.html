@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>MARCXMLMaker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            body {margin:1em;}
+            h1 {margin:1em;}
+            p {margin:1em;}
+            form {margin:1em;}
+            div {margin:0;}
+            input{margin:1em;}
+        </style>
+    </head>
+    <body>
+        <h1>MARCXMLMaker</h1>
+        <p>Select a csv or tsv file: </p>
+        <form action="index.php" enctype="multipart/form-data" method="post">
+            <div>
+                <input type="file" name="csv" accept="text/csv, text/tab-separated-values" />
+            </div>
+            <div>
+                <input type="submit" value="Build MARC XML" />
+            </div>
+        </form>
+    </body>
+</html>

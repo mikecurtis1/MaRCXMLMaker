@@ -78,16 +78,6 @@ header('Content-Type: text/xml; charset=utf-8');
 echo $collection;
 ```
 
----
-
-## Example Output
-
-Run the app from a browser
-
-```
-http://localhost:8080/index.php
-```
-
 XML response
 
 ```xml
@@ -107,6 +97,21 @@ XML response
         </datafield>
     </record>
 </collection>
+```
+---
+
+## Simple application
+
+Place metadata into a csv/tsv file. (Demo tsv file including in the repo.)
+
+```
+http://localhost:8080/books.tsv
+```
+
+Upload a csv/tsv file to convert into MARC XML.
+
+```
+http://localhost:8080/form.html
 ```
 
 ---

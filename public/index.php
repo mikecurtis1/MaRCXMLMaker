@@ -3,7 +3,7 @@
 require_once dirname(__FILE__) . '/../src/MARCXMLMaker.php';
 $mm = new MARCXMLMaker();
 
-$file = "books.tsv";
+$file = $_FILES['csv']['tmp_name'];
 
 $delimiter = "\t";
 
