@@ -34,6 +34,9 @@ Build Docker image and start container
 
 ```bash
 docker build -t marcxmlmaker .
+```
+
+```bash
 docker run -d -p 8080:80 -v $(pwd):/var/www/html marcxmlmaker
 ```
 
