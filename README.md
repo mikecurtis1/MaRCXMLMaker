@@ -44,6 +44,8 @@ docker run -d -p 8080:80 -v $(pwd):/var/www/html marcxmlmaker
 
 ## Basic Usage
 
+Script to build a record.
+
 ```php
 <?php 
 
@@ -78,7 +80,7 @@ header('Content-Type: text/xml; charset=utf-8');
 echo $collection;
 ```
 
-XML response
+XML response.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
