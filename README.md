@@ -1,8 +1,8 @@
 # MARCXMLMaker
 
-MARCXMLMaker is a lightweight PHP utility for building MARCXML records programmatically.
+MARCXMLMaker is a lightweight PHP utility for building [MARCXML](https://www.loc.gov/standards/marcxml/) records programmatically.
 
-It provides a simple, stateful interface for constructing MARC records piece by piece—handling leaders, controlfields, datafields, and subfields—without requiring a full MARC framework.
+It provides a simple, stateful interface for constructing MARC ([ISO 2709](https://www.iso.org/standard/41319.html)) records piece by piece—handling leaders, controlfields, datafields, and subfields—without requiring a full MARC framework.
 
 This project is designed for clarity and ease of use, making it suitable for small tools, scripts, and educational purposes.
 
@@ -201,16 +201,7 @@ This is intended as a practical guide for building records with MARCXMLMaker.
 - The class is **stateful**: it accumulates fields until `addRec()` is called
 - Subfields are buffered and attached only when `buildDatafield()` is invoked
 - Internal buffers are reset after each record
-- XML output is escaped using `htmlspecialchars` (ISO-8859-1)
-
----
-
-## Limitations
-
-- No schema validation
-- No namespace support
-- No MARC standard enforcement beyond structure
-- Encoding is fixed to `ISO-8859-1` internally
+- XML output is escaped using `htmlspecialchars`
 
 ---
 
